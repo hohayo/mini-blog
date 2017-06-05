@@ -83,10 +83,10 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">關於</a>
-                    <a href="https://laracasts.com">註冊</a>
-                    <a href="https://laravel-news.com">登入</a>
-                    <a href="https://forge.laravel.com">忘記密碼</a>
+                    <a href="about">About 關於</a>
+                    <a href="register">Register 註冊</a>
+                    <a href="login">Login 登入</a>
+                    <a href="forget">Forget 忘記密碼</a>
                     <a href="https://github.com/hohayo/mini-blog/">GitHub</a>
                 </div>
             </div>
