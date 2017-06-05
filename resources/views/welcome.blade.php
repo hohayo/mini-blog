@@ -79,15 +79,15 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    小莊的小型部落格
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://laravel.com/docs">關於</a>
+                    <a href="https://laracasts.com">註冊</a>
+                    <a href="https://laravel-news.com">登入</a>
+                    <a href="https://forge.laravel.com">忘記密碼</a>
+                    <a href="https://github.com/hohayo/mini-blog/">GitHub</a>
                 </div>
             </div>
         </div>
