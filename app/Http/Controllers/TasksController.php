@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 
 class TasksController extends Controller
 {
@@ -23,7 +24,7 @@ class TasksController extends Controller
      */
     public function create()
     {
-        //
+        return view('tasks.create');
     }
 
     /**
@@ -34,7 +35,7 @@ class TasksController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return 'hello';
     }
 
     /**
