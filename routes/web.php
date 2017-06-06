@@ -11,6 +11,14 @@
 |
 */
 
+//TestController
+Route::get('test', 'TestController@index');
+
+//TasksController
+Route::resource('tasks', 'TasksController');
+
+
+//Index
 Route::get('/', function () {
     return view('welcome');
 });
@@ -29,4 +37,31 @@ Route::get('login', function() {
 
 Route::get('forget', function() {
 	return view('forget');
+});
+
+//BlogController
+Route::get('posts/{id}', function($id) {
+	//
+})->where('id', '[0-9]+');
+
+Route::get('members/{id}', 'MemberController@show')->name('members.show')->where('id', '[0-9]+');
+
+
+//API
+Route::group(['prefix' => 'api'], function() {
+	Route::get('/', function() {
+		//
+	});
+
+	Route::get('users', function() {
+
+	});
+
+	Route::get('posts', function() {
+
+	});
+
+	Route::get('comments', function() {
+
+	});
 });
